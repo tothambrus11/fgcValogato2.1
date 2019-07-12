@@ -15,7 +15,7 @@ public class MainClass {
         nums.add(8.1f);
 
         try {
-            System.out.println(MyMath.nthLargest(nums, 5));
+            System.out.println(MyMath.nthLargest(nums, 2));
         } catch (Exception e) {
             e.printStackTrace();
         }
